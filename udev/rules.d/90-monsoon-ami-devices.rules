@@ -1,0 +1,1 @@
+KERNEL=="sd[a-f]", SUBSYSTEM=="block", ENV{ID_MODEL}=="Virtual_disk", PROGRAM="/usr/lib/coreos/monsoon-ami-udev %k", SYMLINK+="%c"
